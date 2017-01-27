@@ -65,6 +65,7 @@ services:
       - "80:8080"
     volumes:
       - .:/usr/src/app
+      - /usr/src/app/node_modules
 ```
 Save all file inside your project folder and create the structure of folders and files as follows:
 ## Project folder
