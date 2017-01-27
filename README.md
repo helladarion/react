@@ -16,7 +16,9 @@ https://docs.docker.com/compose/install/
 Download the package.json and webpack.config.js
 ------------------------------------------------
 you can find them here:
+
 https://goo.gl/jcPxOM - package.json
+
 https://goo.gl/3fN3CL - webpack.config.js
 
 Creating the Dockerfile
