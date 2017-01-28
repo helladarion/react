@@ -86,7 +86,7 @@ services:
 ```
 
 ## Lets work at the files:    
-make the index.html as follows:
+Create index.html as follows:
 ```
 <!DOCTYPE html>
 <html>
