@@ -4,13 +4,15 @@ This project is to prepare a development environment for ReactJS.
 
 Docker
 -------
-To start the development I would like to use Docker, I'm just amazed with the possibilities and the power of the containers that Docker can offer.
-Let's Start:
-Installing Docker Engine: 
-My OS is Linux Mint but you can install docker engine using the instructions at their official page:
+Let's start the development with Docker, I'm just amazed with the possibilities and the power of the containers that Docker can offer.
+
+## Installing Docker Engine:
+My OS of preference is Linux Mint but you can install docker engine at any Operational Sistem using the instructions at their official page: 
+
 https://docs.docker.com/engine/installation/
 
 *Also install docker-compose:*
+
 https://docs.docker.com/compose/install/
 
 Download the package.json and webpack.config.js
