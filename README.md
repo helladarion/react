@@ -1,6 +1,6 @@
-How to prepare an Environment to develop in ReactJs
+How to prepare a development Environment for ReactJS using docker
 =====================================================
-This project is to prepare an environment to development for react.
+This project is to prepare a development environment for ReactJS.
 
 Docker
 -------
