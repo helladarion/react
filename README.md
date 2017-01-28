@@ -11,9 +11,24 @@ My OS of preference is Linux Mint but you can install docker engine at any Opera
 
 https://docs.docker.com/engine/installation/
 
-*Also install docker-compose:*
+*Also is important to install docker-compose:*
 
 https://docs.docker.com/compose/install/
+
+Save all files inside your project folder and create the structure of folders and files as follows:
+## Project folder
+```
+.
++-- src
+|   +-- index.html
+|   +-- js
+|       +-- client.js
++-- package.json
++-- webpack.config.js
++-- docker.nodejs
++-- docker-compose.yml
+```
+
 
 Download the package.json and webpack.config.js
 ------------------------------------------------
@@ -69,19 +84,7 @@ services:
       - .:/usr/src/app
       - /usr/src/app/node_modules
 ```
-Save all file inside your project folder and create the structure of folders and files as follows:
-## Project folder
-```
-.
-+-- src
-|   +-- index.html
-|   +-- js
-|       +-- client.js
-+-- package.json
-+-- webpack.config.js
-+-- docker.nodejs
-+-- docker-compose.yml
-```
+
 ## Lets work at the files:    
 make the index.html as follows:
 ```
