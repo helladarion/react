@@ -21,6 +21,9 @@ module.exports = {
     path: __dirname + "/src/",
     filename: "client.min.js"
   },
+  watchOptions: {
+    poll: 1000
+  },
   plugins: debug ? [] : [
     new webpack.optimize.DedupePlugin(),
     new webpack.optimize.OccurenceOrderPlugin(),
