@@ -1,17 +1,34 @@
-How to prepare an Environment to develop in ReactJs
+How to prepare a development Environment for ReactJS using docker
 =====================================================
-This project is to prepare an environment to development for react.
+This project is to prepare a development environment for ReactJS.
 
 Docker
 -------
-To start the development I would like to use Docker, I'm just amazed with the possibilities and the power of the containers that Docker can offer.
-Let's Start:
-Installing Docker Engine: 
-My OS is Linux Mint but you can install docker engine using the instructions at their official page:
+Let's start the development with Docker, I'm just amazed with the possibilities and the power of the containers that Docker can offer.
+
+## Installing Docker Engine:
+My OS of preference is Linux Mint but you can install docker engine at any Operational Sistem using the instructions at their official page: 
+
 https://docs.docker.com/engine/installation/
 
-*Also install docker-compose:*
+*Also is important to install docker-compose:*
+
 https://docs.docker.com/compose/install/
+
+Save all files inside your project folder and create the structure of folders and files as follows:
+## Project folder
+```
+.
++-- src
+|   +-- index.html
+|   +-- js
+|       +-- client.js
++-- package.json
++-- webpack.config.js
++-- docker.nodejs
++-- docker-compose.yml
+```
+
 
 Download the package.json and webpack.config.js
 ------------------------------------------------
@@ -67,21 +84,9 @@ services:
       - .:/usr/src/app
       - /usr/src/app/node_modules
 ```
-Save all file inside your project folder and create the structure of folders and files as follows:
-## Project folder
-```
-.
-+-- src
-|   +-- index.html
-|   +-- js
-|       +-- client.js
-+-- package.json
-+-- webpack.config.js
-+-- docker.nodejs
-+-- docker-compose.yml
-```
+
 ## Lets work at the files:    
-make the index.html as follows:
+Create index.html as follows:
 ```
 <!DOCTYPE html>
 <html>
